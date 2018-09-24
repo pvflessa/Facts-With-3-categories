@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Random Facts</title>
+
+<link rel="stylesheet" href="style.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+<link href="https://fonts.googleapis.com/css?family=Bubblegum+Sans|Nova+Mono|Roboto+Condensed" rel="stylesheet">
+  </head>
+  <body>
+    <h1 class="small"><small>Day #36</small></h1>
+    <h1 class="small">Random Facts</h1>
+
+
+
+    <div class="sandbox">
+
+      <div class="container">
+
+
+        <div class="row">
+
+          <div class="col-md-12">
+
+            <div class="chooseFact">
+              <p>Choose a type:</p>
+              <button type="submit" name="button" id="mathbtn" class="btn btn-info">Math Fact</button>
+              <button type="submit" name="button" id="yearbtn" class="btn btn-info">Year Fact</button>
+              <button type="submit" name="button" id="datebtn" class="btn btn-info">Date Fact</button>
+
+            </div>
+
+            <div class="mathFacts p-3">
+
+              <p>Enter a Number and get a random fact</p>
+              <input type="number" id="numberInput" class="form-control form-control-lg" placeholder="Enter a number">
+              <hr>
+              <div id="fact">
+              <h4>Number Fact</h4>
+              <p id="factText"></p>
+              </div>
+
+            </div>
+
+            <div class="yearFacts p-3">
+
+              <p>Enter a Year and get a random fact</p>
+              <input type="number" id="yearInput" class="form-control form-control-lg" placeholder="Enter a year">
+              <hr>
+              <div id="factYear">
+              <h4>Year Fact</h4>
+              <p id="factTextYear"></p>
+              </div>
+
+            </div>
+
+            <div class="dateFacts p-3">
+
+              <p>Enter a Date and get a random fact</p>
+              <form id="submitDate">
+              <input type="number" id="monthInput" class="form-control form-control-lg" placeholder="Enter a month" min="1" max="12">
+              <input type="number" id="dayInput" class="form-control form-control-lg" placeholder="Enter a day" min="1" max="31">
+              <input type="submit" value="submit">
+              </form>
+              <hr>
+              <div id="factDate">
+              <h4>Date Fact</h4>
+              <p id="factTextDate"></p>
+              </div>
+
+            </div>
+
+
+          </div>
+
+        </div>
+
+
+
+
+      </div>
+    </div>
+
+
+
+
+
+<script src="app.js"></script>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
